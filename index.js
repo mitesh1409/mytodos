@@ -3,11 +3,13 @@ import dotenv from 'dotenv';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
+import { connectDB } from './services/connectDB.js';
 import { homeController } from './controllers/home.controller.js';
 
-dotenv.config();
-
 const app = express();
+dotenv.config();
+await connectDB();
+
 const PORT = process.env.PORT || 3000;
 const HOST = process.env.HOST || '127.0.0.1';
 
