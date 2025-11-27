@@ -1,0 +1,19 @@
+{
+  "name": "mytodos",
+  "version": "1.0.0",
+  "description": "A simple todo application",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitesh1409/mytodos.git"
+  },
+  "author": "Mitesh Prajapati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mitesh1409/mytodos/issues"
+  },
+  "homepage": "https://github.com/mitesh1409/mytodos#readme"
+}
