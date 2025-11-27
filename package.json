@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A simple todo application",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "watch": "node --watch index.js",
+    "start": "node index.js",
     "test": "jest"
   },
   "repository": {
